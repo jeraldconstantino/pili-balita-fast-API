@@ -1,7 +1,7 @@
 import pandas as pd
 from joblib import load
 from fastapi import FastAPI
-import re, string, mga_modelo
+import re, string, vectorizer
 from pydantic import BaseModel
 
 
@@ -38,7 +38,7 @@ def prediktor(balita):
         "balita"
     ].apply(linisin_pangungusap)
     x_panibagong_balitang_susuriin = panibagong_balitang_susuriin["balita"]
-    susuriing_balita = mga_modelo.tfidf_vectorizer.transform(
+    susuriing_balita = vectorizer.tfidf_vectorizer.transform(
         x_panibagong_balitang_susuriin
     )
 

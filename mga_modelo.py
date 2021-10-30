@@ -1,4 +1,4 @@
-import pandas as pd
+import vectorizer
 from joblib import dump
 from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
@@ -6,20 +6,11 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import TfidfVectorizer
 
-df = pd.read_csv("datos/balita.csv")
-mga_kategorya = df.kategorya
-x_pagsasanay, x_pagsusuri, y_pagsasanay, y_pagsusuri = train_test_split(
-    df["balita"], mga_kategorya, test_size=0.2, random_state=7
-)
-
-assert x_pagsasanay.shape[0] == y_pagsasanay.shape[0]
-
-tfidf_vectorizer = TfidfVectorizer()
-vectorizer_pagsasanay = tfidf_vectorizer.fit_transform(x_pagsasanay)
-vectorizer_pagsusuri = tfidf_vectorizer.transform(x_pagsusuri)
+vectorizer_pagsasanay = vectorizer.vectorizer_pagsasanay
+y_pagsasanay = vectorizer.y_pagsasanay
+vectorizer_pagsusuri = vectorizer.vectorizer_pagsusuri
+y_pagsusuri =  vectorizer.y_pagsusuri
 
 LR = LogisticRegression()
 LR.fit(vectorizer_pagsasanay, y_pagsasanay)
