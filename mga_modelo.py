@@ -1,6 +1,5 @@
 import vectorizer
 from joblib import dump
-from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report
