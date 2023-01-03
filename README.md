@@ -12,7 +12,7 @@ This repository is part of [Pili-Balita](https://github.com/jeraldconstantino/pi
 7. The deployment method in Heroku have three different options, but choose GitHub instead. 
 8. Next, connect this repository by searching the pili-balita-fast-API and hit the `connect` button.
 9. Make sure that you have click the `Enable Automatic Deploys` button, so that whenever there is a changes happened in this repository, it will be automatically updated on the other side. 
-10. Choose the `main` branch and hit the `Deploy Branch` button. At this moment, the build has started if you observed the logs. During this stage, it will take some time to process and each library you have inputted on the [requirements.txt](https://github.com/jeraldconstantino/pili-balita-fast-API/blob/main/requirements.txt) file will be installed.
-11. Once the deployment stage is successfull, the URL would be generated at the last part of the logs. The generated URL link can be used to PUSH data and acquire the desired information.
+10. Choose the `main` branch and hit the `Deploy Branch` button. At this moment, the deployment begins as observed the logs. During this stage, it will take some time to process and each library you have inputted on the [requirements.txt](https://github.com/jeraldconstantino/pili-balita-fast-API/blob/main/requirements.txt) file will be installed.
+11. Once the deployment stage is successfull, the URL would be generated at the last part of the logs. The generated URL link can be used to PUSH data and acquire the desired information. You can also copy the URL by hitting the `view` button and manually copy the link from the URL holder of your browser.
 12. Copy that URL and paste it within the [url.py](https://github.com/jeraldconstantino/pili-balita/blob/main/url.py) file from the [Pili-Balita](https://github.com/jeraldconstantino/pili-balita) repository.
 13. Test the URL by PUSHing data to verify if the URL is working.
