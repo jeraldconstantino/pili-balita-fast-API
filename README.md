@@ -20,11 +20,11 @@ This repository is part of [Pili-Balita](https://github.com/jeraldconstantino/pi
 ## Open for Contribution
 1. Clone repository and create a new branch: 
 ```
-$ git clone https://github.com/jeraldconstantino/pili-balita
-$ git checkout https://github.com/jeraldconstantino/pili-balita -b name_for_new_branch
+$ git clone https://github.com/jeraldconstantino/pili-balita-fast-API
+$ git checkout https://github.com/jeraldconstantino/pili-balita-fast-API -b name_for_new_branch
 ```
 2. Make changes and test.
-3. Submit [Pull Request](https://github.com/jeraldconstantino/pili-balita/pulls) with comprehensive description of changes.
+3. Submit [Pull Request](https://github.com/jeraldconstantino/pili-balita-fast-API/pulls) with comprehensive description of changes.
 
 ### Bug Reports & Feature Requests
-Kindly use the [issue tracker](https://github.com/jeraldconstantino/pili-balita/issues) to report any bugs or file feature requests.
+Kindly use the [issue tracker](https://github.com/jeraldconstantino/pili-balita-fast-API/issues) to report any bugs or file feature requests.
