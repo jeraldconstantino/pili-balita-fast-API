@@ -16,3 +16,15 @@ This repository is part of [Pili-Balita](https://github.com/jeraldconstantino/pi
 11. Once the deployment stage is successfull, the URL would be generated at the last part of the logs. The generated URL link can be used to PUSH data and acquire the desired information. You can also copy the URL by hitting the `view` button and manually copy the link from the URL holder of your browser.
 12. Copy that URL and paste it within the [url.py](https://github.com/jeraldconstantino/pili-balita/blob/main/url.py) file from the [Pili-Balita](https://github.com/jeraldconstantino/pili-balita) repository.
 13. Test the URL by PUSHing data to verify if the URL is working.
+
+## Open for Contribution
+1. Clone repository and create a new branch: 
+```
+$ git clone https://github.com/jeraldconstantino/pili-balita
+$ git checkout https://github.com/jeraldconstantino/pili-balita -b name_for_new_branch
+```
+2. Make changes and test.
+3. Submit [Pull Request](https://github.com/jeraldconstantino/pili-balita/pulls) with comprehensive description of changes.
+
+### Bug Reports & Feature Requests
+Kindly use the [issue tracker](https://github.com/jeraldconstantino/pili-balita/issues) to report any bugs or file feature requests.
